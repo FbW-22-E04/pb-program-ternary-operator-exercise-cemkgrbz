@@ -68,7 +68,7 @@ if (login == 'Employee') {
 let message;
 let login = 'Director';
 
-login == 'Emloyee' ? (message = 'Hello') 
+login == 'Employee' ? (message = 'Hello') 
  : login == 'Director' ? (message = 'Greetings') 
  : login == '' ? (message = 'No login') 
  : (message = '');
